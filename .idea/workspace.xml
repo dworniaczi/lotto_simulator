@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1e6c86af-95a3-4066-8ce6-a4f11f5df292" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/lotto_symulator/dworniaczi/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/lotto_symulator/dworniaczi/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/dworniaczi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dworniaczi/Main.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -61,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1579634316769</updated>
       <workItem from="1579634319386" duration="46000" />
-      <workItem from="1579634505983" duration="2663000" />
+      <workItem from="1579634505983" duration="4672000" />
     </task>
     <servers />
   </component>
