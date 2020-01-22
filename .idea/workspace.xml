@@ -63,7 +63,7 @@
       <updated>1579634316769</updated>
       <workItem from="1579634319386" duration="46000" />
       <workItem from="1579634505983" duration="4672000" />
-      <workItem from="1579693268766" duration="7189000" />
+      <workItem from="1579693268766" duration="9150000" />
     </task>
     <servers />
   </component>
@@ -88,8 +88,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/dworniaczi/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="5" />
+          <line>36</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
