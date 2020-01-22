@@ -43,7 +43,13 @@ public class Main {
         }
         System.out.println(computerList);
 
-
+        playerList.retainAll(computerList);
+        int matchNumber = playerList.size();
+        if (matchNumber >= 3) {
+            System.out.println("Trafiłeś: " + matchNumber + " liczby." + "Trafione liczby to: " + playerList);
+        } else {
+            System.out.println("Niestety nic nie wygrałeś.");
+        }
     }
 }
 
