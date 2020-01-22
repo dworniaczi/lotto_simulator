@@ -8,7 +8,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Witaj! Zagrajmy w lotka. Podaj 6 liczb w zakresie 1 - 49.");
-        List<String> playerList = new ArrayList<String>(6);
+        List<Integer> playerList = new ArrayList<>(6);
 
         for (int i = 0; i < 6;) {
             System.out.println("Podaj liczbę");
@@ -16,8 +16,8 @@ public class Main {
             try {
                 int num = Integer.parseInt(input);
                 if (num >= 1 && num <= 49) {
-                    if (!playerList.contains(input)) {
-                        playerList.add(input);
+                    if (!playerList.contains(num)) {
+                        playerList.add(num);
                         i++;
                     } else {
                         System.out.println("Liczby nie mogą się powtarzać!");
@@ -28,8 +28,9 @@ public class Main {
             } catch (NumberFormatException e) {
                 System.out.println("To nie liczba!");
             }
-            System.out.println(playerList);
         }
+        Collections.sort(playerList);
+        System.out.println(playerList);
 
         Random random = new Random();
         List<Integer> computerList = new ArrayList<Integer>(6);
@@ -41,6 +42,8 @@ public class Main {
             }
         }
         System.out.println(computerList);
+
+
     }
 }
 
